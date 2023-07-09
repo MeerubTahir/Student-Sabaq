@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:text="Add Student Details"
+            android:textAlignment="center"
+            android:textSize="29sp"
+
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine123"
+            android:layout_width="244dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="44dp"
+
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Roll-No"
+            android:inputType="textMultiLine"
+            android:padding="4sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView1"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="241dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="15dp"
+
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter name"
+            android:inputType="textMultiLine"
+            android:padding="4sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine123"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine123"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine123" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine3"
+            android:layout_width="241dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="15dp"
+
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Age"
+            android:inputType="textMultiLine"
+            android:padding="4sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine2"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine4"
+            android:layout_width="241dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="15dp"
+
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Class"
+            android:inputType="textMultiLine"
+            android:padding="4sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextMultiLine3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextMultiLine3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3" />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="@color/teal_200"
+            android:text="Add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
